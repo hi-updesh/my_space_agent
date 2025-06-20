@@ -2,7 +2,6 @@ import unittest
 import os
 import sys
 import asyncio
-import requests
 from unittest.mock import patch, MagicMock
 from typing import Optional 
 from multi_tool_agent.agent import root_agent, clear_tool_log, get_tool_log
