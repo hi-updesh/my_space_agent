@@ -31,10 +31,11 @@ source venv/bin/activate # On macOS/Linux
 
 
 INSTALL DEPENDENCIES:
+Ensure your requirements.txt includes: google-generativeai, python-dotenv, requests, google-adk, pytz
 From the my_space_agent directory, run the following command to install dependencies:
 
 pip install -r requirements.txt
-# Ensure your requirements.txt includes: google-generativeai, python-dotenv, requests, google-adk, pytz
+
 
 
 CONFIGURE THE API KEYS:
